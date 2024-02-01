@@ -1,0 +1,26 @@
+int main()
+{
+   float o, l, p;
+    
+    printf("ingrese el valor de su nota:");
+    scanf("%f",& o);
+    printf("ingrese el valor de su nota:");
+    scanf("%f",& l);
+    printf("ingrese el valor de su nota:");
+    scanf("%f",& p);
+    if(l<p)
+    {
+    printf("el mayor es: %.1f  \n", p);
+    }
+    else
+    {
+    if(o<l)
+    {     
+    printf("el mayor es:  %.1f  \n", l);
+    }
+    else
+         {
+     printf("el mayor es:  %.1f  \n", o);
+    } } 
+    return 0;
+}
